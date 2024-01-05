@@ -1,3 +1,4 @@
+import sys
 from collections import defaultdict
 from urllib.parse import quote
 from httpx import Client
@@ -44,6 +45,6 @@ def scrape_search(query: str, page=1):
     
 # example use: scrape 3 pages: 1,2,3
 for page in [1, 2, 3]:
-    results = scrape_search("scrapfly blog", page=page)
+    results = scrape_search(sys.argv[1], page=page)
     for result in results["search"]:
         print(result)
