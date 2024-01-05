@@ -1,4 +1,4 @@
-# SEtSE
-Subdomain Enumeration through Search Engines
+# SEuSE
+Subdomain Enumeration using Search Engines
 
 Project in progress, nothing interesting here (yet)
